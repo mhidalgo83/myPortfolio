@@ -2,25 +2,28 @@ body {
     background-image: url("../images/backgroundimg.jpg");
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 
 #pic {
     float: left;
     margin-right: 10px;
-    height: 300px;
-}
-
-#about{
-    padding-top: 100px;
+    height: 250px;
+    width: 250px;
 }
 
 #projects {
-    padding-top: 100px;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+
+#about {
+    margin-bottom: 50px;
 }
 
 form {
-    padding-top: 100px;
-    margin-bottom: 200px;
+    padding-top: 40px;
+    margin-bottom: 100px;
 }
 
 /*Footer*/
@@ -28,11 +31,35 @@ form {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 75px;
+    height: 50px;
     background: #fafafa;
   }
 
-  .footer p {
-    margin-top: 30px;
+.footer p {
+    margin-top: 15px;
     text-align: center;
   }
+
+  
+@media only screen and (max-width: 980px) {
+    #pic {
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #pic {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #pic {
+        height: 100px;
+        width: 100px;
+    }
+}
+
