@@ -8,8 +8,8 @@ body {
 #pic {
     float: left;
     margin-right: 10px;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
 }
 
 #projects {
@@ -43,23 +43,23 @@ form {
   
 @media only screen and (max-width: 980px) {
     #pic {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
     
 }
 
 @media only screen and (max-width: 768px) {
     #pic {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 }
 
 @media only screen and (max-width: 360px) {
     #pic {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 }
 
