@@ -1,4 +1,4 @@
-<html class="animated fadeInLeft">
+<html class="animated fadeIn">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" charset="UTF-8">
@@ -17,9 +17,8 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <h2>Matthew Hidalgo</h2>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -37,17 +36,62 @@
             <a class=" nav-item nav-link " href="https://www.linkedin.com/in/matthew-hidalgo1/ " target="_blank
             ">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNrf7qTEQAjDTFWgNo2IC4xsdpFuWXM3qE9OnTo_RuX0GGvJ15g
-            " alt="LinkedIn " height="50px " width="50px ">
+            "
+                    alt="LinkedIn " height="50px " width="50px ">
             </a>
             <a class="nav-item nav-link " href="https://github.com/mhidalgo83 " target="_blank ">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_VWGgNdkB9crH-iBNMMWwsNZUm24m7X-1jUISsNKMNVJt6IlB
-            " alt="GitHub " height="50px " width="50px ">
+            "
+                    alt="GitHub " height="50px " width="50px ">
             </a>
         </div>
     </nav>
-    <div class="container container-fluid" id="projects">
-        <h3>Projects</h3>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <img class="img-fluid" src="./public/assets/images/traveleer.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Traveleer</h3>
+                    <p class="card-text">This is a travel application designed for those interested in learning more information about a destination before they travel. The application utilizes AJAX, jQuery, and responsive web design to create UI that is appealing to the eye.</p>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <img class="img-fluid" src="./public/assets/images/guess.png" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Guess Game</h3>
+                    <p class="card-text">This application leverages React to update the DOM in real time, depending on which image is clicked.</p>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <img class="img-fluid" src="./public/assets/images/crystals.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Crystal Collector</h3>
+                    <p class="card-text">This application uses jQuery to randomly select a different number for each crystal at the start of the game. </p>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">
+                <img class="img-fluid" src="./public/assets/images/getagig.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h3>Get-A-Gig</h3>
+                    <p class="card-text">This is a full-stack application where job seekers can find temporary gigs. They application uses the MVC paradigm with Express and Node as the server, with a mySQL database supporting the back-end. Handlebars was used to render our data dynamically.</p>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <br>
+
+
+    <!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="row">
                     <div class="col-sm-1"></div>
@@ -56,8 +100,7 @@
                             <a href="https://secret-tundra-62346.herokuapp.com/" target="_blank"><img class="d-block w-100"
                                     src="public/assets/images/getagig.PNG" alt="First slide"></a>
                             <h5>Get-A-Gig</h5>
-                            <h6>A full-stack application that takes in user information, stores it in a mySQL database,and
-                                renders that information using Handlebars.js</h6>
+                            <h6>A full-stack application that helps people find small jobs for extra cash.</h6>
                         </div>
                         <div class="carousel-item">
                             <a href="https://shadowlaq.github.io/GilaMonster1/" target="_blank"><img class="d-block w-100"
@@ -66,10 +109,10 @@
                             <h6>An application using jQuery, AJAX, and responsive web-design to help with travel plans</h6>
                         </div>
                         <div class="carousel-item">
-                            <a href="https://mhidalgo83.github.io/unit-4-game/index.html" target="_blank"><img class="d-block w-100"
-                                    src="public/assets/images/crystals.PNG" alt="Third slide"></a>
-                            <h5>Crystal Collector</h5>
-                            <h6>A game that uses jQuery to randomly generate numbers for the user to guess</h6>
+                            <a href="https://mhidalgo83.github.io/guess-game/" target="_blank"><img class="d-block w-100"
+                                    src="public/assets/images/parksnrec.png" alt="Third slide"></a>
+                            <h5>React Guess Game</h5>
+                            <h6>A guess game that utlizes the state in React to dynamically generate photos and shuffle them on each click.</h6>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -83,14 +126,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
     </div>
-    <footer class="footer bg-light">
-        <div class="container">
-            <p>Copyright &copy; 2018 </p>
-        </div>
-    </footer>
+
 </body>
 
 </html>

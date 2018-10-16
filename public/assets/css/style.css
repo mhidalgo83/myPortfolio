@@ -1,65 +1,58 @@
 body {
-    background-image: url("../images/backgroundimg.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
+  background-image: url("https://images.pexels.com/photos/935871/pexels-photo-935871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #pic {
-    float: left;
-    margin-right: 10px;
-    height: 350px;
-    width: 350px;
+  float: left;
+  margin-right: 10px;
+  height: 350px;
+  width: 350px;
 }
 
 #projects {
-    padding-top: 40px;
-    margin-bottom: 100px;
+  padding-top: 40px;
+  margin-bottom: 100px;
 }
 
 #about {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 form {
-    padding-top: 40px;
-    margin-bottom: 100px;
+  padding-top: 40px;
+  margin-bottom: 100px;
 }
 
 /*Footer*/
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background: #fafafa;
-  }
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #fafafa;
+}
 
 .footer p {
-    margin-top: 15px;
-    text-align: center;
-  }
+  margin-top: 15px;
+  text-align: center;
+}
 
-  
-@media only screen and (max-width: 980px) {
-    #pic {
-        height: 250px;
-        width: 250px;
-    }
+.jumbotron {
+  background-image: url("https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.img-fluid {
+    height: 25%;
+    width: 100%;
+}
+
+.title {
+    margin-left: 9%;
     
 }
-
-@media only screen and (max-width: 768px) {
-    #pic {
-        height: 200px;
-        width: 200px;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    #pic {
-        height: 150px;
-        width: 150px;
-    }
-}
-
